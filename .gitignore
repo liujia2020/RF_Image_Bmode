@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+experiments/*/02_train/checkpoints/
+experiments/*/03_validate/nii/
+*.pth
+*.pt
+.DS_Store
