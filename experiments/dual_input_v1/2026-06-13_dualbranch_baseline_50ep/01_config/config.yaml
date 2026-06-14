@@ -1,0 +1,16 @@
+experiment_name: dualbranch_baseline_50ep
+model: DualBranchBModeUNet
+cache_root: /mnt/g/rf_training_cache/dual_input_bmode
+epochs: 50
+smoke_epochs: 3
+micro_batch: 2
+grad_accum: 3
+stratified_per_class: 2
+num_workers: 4
+optimizer: Adam
+lr: 0.0002
+loss: "0.84*(1-SSIM3D) + 0.16*L1"
+ssim_win: 7
+ssim_data_range: 1.0
+amp: false
+seed: 20260613

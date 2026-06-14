@@ -1,0 +1,14 @@
+{
+  "y_slice": 16,
+  "note": "Fixed first sample per category; whole-patch SNR is non-ROI trend only.",
+  "train": {
+    "carotid": 0,
+    "muscle": 350,
+    "phantom": 700
+  },
+  "val": {
+    "carotid": 0,
+    "muscle": 75,
+    "phantom": 150
+  }
+}

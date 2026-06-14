@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wsl bash *)",
+      "Bash(gh api *)",
+      "Bash(gh search *)",
+      "Bash(git commit *)",
+      "Bash(git add *)"
+    ]
+  }
+}

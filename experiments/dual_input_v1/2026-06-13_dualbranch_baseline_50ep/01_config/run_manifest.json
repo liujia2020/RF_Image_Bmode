@@ -1,0 +1,24 @@
+﻿{
+    "timestamp":  "2026-06-13 17:18:00 +08:00",
+    "task":  "dualbranch_baseline_50ep",
+    "experiment_name":  "dualbranch_baseline_50ep",
+    "run_dir":  "/mnt/g/Code/RF_Image_Bmode/experiments/dual_input_v1/2026-06-13_dualbranch_baseline_50ep",
+    "git_commit":  "a7eee9a023e9e623f02c5ef69be2ad8501432047",
+    "git_dirty":  true,
+    "dirty_status":  [
+                         " M .context/proma_startup_prompt.md",
+                         " M \"docs/\\351\\241\\271\\347\\233\\256\\347\\254\\224\\350\\256\\260/06_\\345\\205\\263\\351\\224\\256\\345\\217\\221\\347\\216\\260\\344\\270\\216\\346\\225\\231\\350\\256\\255.md\"",
+                         "?? experiments/dual_input_v1/2026-06-13_dualbranch_baseline_50ep/"
+                     ],
+    "config_sha256":  "8ef19d0c33b0954d138da169eb4b3a88887608a4e9b1f77ddcf2f943a635a406",
+    "cache_root":  "/mnt/g/rf_training_cache/dual_input_bmode",
+    "checkpoint_dir":  "/mnt/g/Code/RF_Image_Bmode/experiments/dual_input_v1/2026-06-13_dualbranch_baseline_50ep/02_train/checkpoints",
+    "probe_train_dir":  "/mnt/g/Code/RF_Image_Bmode/experiments/dual_input_v1/2026-06-13_dualbranch_baseline_50ep/02_train/probes/train",
+    "probe_val_dir":  "/mnt/g/Code/RF_Image_Bmode/experiments/dual_input_v1/2026-06-13_dualbranch_baseline_50ep/02_train/probes/val",
+    "python":  "3.10.19",
+    "torch":  "2.5.1+cu121",
+    "cuda_available":  true,
+    "cuda_version":  "12.1",
+    "gpu":  "NVIDIA GeForce RTX 4060",
+    "platform":  "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35"
+}
